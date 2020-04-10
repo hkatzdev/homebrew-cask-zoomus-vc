@@ -45,4 +45,6 @@ cask 'zoomus' do
                '~/Library/SafariTechnologyPreview/PerSiteZoomPreferences.plist',
                '~/Library/Saved Application State/us.zoom.xos.savedState',
              ]
+
+caveats "NOTE: This version of Zoom.us (#{version}) is known to be insecure! For details, visit nvd.nist.gov/vuln/detail/CVE-2020-11470"
 end
